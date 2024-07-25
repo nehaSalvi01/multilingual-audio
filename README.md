@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Project
+This guide covers the creation and management of an audio_files table in a Laravel application. The table is designed to store information about audio files, including their file paths, languages, and associations with collections.
+
+Requirements 
+Latest Version Of Laravel:11.16.0 
+Composer 
+MySQL
+
+Clone the Repository git clone https://github.com/nehaSalvi01/multilingual-audio.git
+
+Install install composer 
+
+Setup Environment file
+Copy the .env.example file to .env and configure your database setting 
+Database = multilingual-audio
+
+CRUD Operations 
+Fill out the form
+
+Edit Audio click edit, update details, and submit.
+
+Delete Audio Files by click on delete.
+
+Play Audio Files in View Page
+
+Form Validation Ensures required fields are filled out when creating or editing a category.
+
+Frontend Styling Uses Bootstrap for styling. Customizable as needed.
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
